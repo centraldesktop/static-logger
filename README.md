@@ -10,9 +10,6 @@ To run unit tests:
 	vendor/bin/phpunit
 
 
-Fork of: http://stomp.fusesource.org/
-
-
 Usage
 
 	use Logger\Simple;
