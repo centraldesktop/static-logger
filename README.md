@@ -15,6 +15,6 @@ Fork of: http://stomp.fusesource.org/
 
 Usage
 
-	use CentralDesktop\Logger\Static;
+	use Logger\Simple;
 
 
