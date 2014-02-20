@@ -5,7 +5,7 @@ namespace Log;
 use Psr\Log\LoggerInterface;
 use Psr\Log\LogLevel;
 
-class Simple implements \Psr\Log\LoggerAwareInterface {
+class Simple {
     /**
      * @var \Psr\Log\LoggerInterface
      */
@@ -18,10 +18,11 @@ class Simple implements \Psr\Log\LoggerAwareInterface {
      *
      * @return null
      */
-    public
+    public static
     function setLogger(LoggerInterface $logger) {
         self::$logger = $logger;
     }
+
 
     public static
     function clearLogger() {

@@ -29,8 +29,8 @@ class SimpleTest extends \PHPUnit_Framework_TestCase {
 
         $this->logger->pushHandler($this->handler);
 
-        $simple = new Simple();
-        $simple->setLogger($this->logger);
+
+        Simple::setLogger($this->logger);
     }
 
 
