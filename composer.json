@@ -10,7 +10,7 @@
     },
 
     "suggest": {
-        "seldaek/monolog": "Log some place interesting rather than nowhere"
+        "monolog/monolog": "Log some place interesting rather than nowhere"
     },
 
     "require-dev": {
