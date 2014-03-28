@@ -12,6 +12,6 @@ To run unit tests:
 
 Usage
 
-	use Logger\Simple;
+	use Log\Simple;
 
 
