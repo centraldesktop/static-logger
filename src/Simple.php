@@ -33,8 +33,14 @@ class Simple {
     public static
     function log($level, $message, $context) {
         if (is_null(self::$logger)) return false;
-
-        return self::$logger->log($level, $message, $context);
+	
+	try {
+            return self::$logger->log($level, $message, $context);
+        } catch (Exception $e){
+            error_log("Issue logging with configured logger.  $e");
+            return false;
+        }
+       
     }
 
     public static
